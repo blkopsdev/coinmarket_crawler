@@ -1,0 +1,27 @@
+{
+  "name": "coinmarket_crawler",
+  "version": "1.0.0",
+  "description": "Coinmarketcap Markets Data Crawler",
+  "main": "spider.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --max_old_space_size=4096 spider.js",
+    "start": "node --max_old_space_size=4096 spider.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cryptonaut-Team/crypto-coin-crawler.git"
+  },
+  "author": "James Woods", 
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cryptonaut-Team/crypto-coin-crawler/issues"
+  },
+  "homepage": "https://github.com/Cryptonaut-Team/crypto-coin-crawler#readme",
+  "dependencies": {
+    "async": "^2.6.0",
+    "cheerio": "^1.0.0-rc.2",
+    "mongodb": "^3.0.1",
+    "request": "^2.83.0"
+  }
+}
